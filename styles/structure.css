@@ -1,0 +1,45 @@
+body{
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#main{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 1px;
+  background-color: #222222;
+}
+
+.left_menu{
+  background-color: #333336;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px auto;
+}
+.menu{
+  width: 100%;
+  background-color: #444446;
+  border-bottom: 1px solid #222222;
+}
+
+.right_menu{
+  background-color: #333336;
+  position:relative;
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+}
+
+.room_info{
+  width: 100%;
+  background-color: #444446;
+  border-bottom: 1px solid #222222;
+}
+
+.send_area{
+  width: 100%;
+  height:50px;
+  background-color: #444446;
+}
+
+/*   #333336   #444446   */
