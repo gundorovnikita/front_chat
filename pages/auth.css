@@ -1,0 +1,146 @@
+body{
+  background-color: #222226;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #333336;
+  height: 42px;
+  width: 100%;
+}
+
+.links{
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+.fas{
+   margin-top: 1px;
+   color:white;
+   font-size: 38px;
+ }
+
+.logo{
+   float: left;
+ }
+.app{
+  float: right;
+}
+
+.auth_area{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+form{
+  margin: 25px;
+}
+
+a{
+  color: #FFFFF8;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+input{
+  border: none;
+  outline: none;
+  background-color: #444446;
+  color: #D4D4D4;
+  font-size: 22px;
+  height: 40px;
+  width: 81%;
+  margin: 15px;
+  padding: 0 15px;
+}
+
+button{
+  background-color: #666666;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  margin: 15px;
+  height: 40px;
+  width: 140px;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #6D6D6D;
+}
+
+.left_login{
+  background-color:#333336;
+}
+
+.right_login input{
+  margin-top: 6px;
+}
+
+.right_login{
+  background-color:#333336;
+}
+
+.fa-vk{
+  color: white;
+}
+.vk{
+  background-color: #5181B8;
+}
+.vk:hover{
+  background-color: #5A89BD;
+}
+
+.info_right{
+  margin-right: 10px;
+  margin-top: 40px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bot{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.register{
+  background-color:#333336;
+}
+.register form{
+  margin-top: 5px;
+}
+.register input{
+  width: 88%;
+}
+
+.info_register{
+  margin-right: 25px;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.white_text{
+  color: white;
+}
+.info{
+  background-color: #333336;
+}
+.info .phone{
+  margin-left: 14px;
+  color: #656565;
+}

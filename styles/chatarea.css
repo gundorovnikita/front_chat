@@ -49,12 +49,13 @@ clear: both;
 
 .message_element{
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
   margin-right: 28px;
 }
 .message_date{
   color: #757575;
+  margin-top: 5px;
 }
 
 .message_side{
